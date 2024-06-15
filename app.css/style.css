@@ -5,7 +5,8 @@
 }
 
 .container-title{
-    padding: 80px;
+    padding: 20px 80px;
+    padding-top: 80px;
     margin: 0 auto;
     max-width: 1024px;
     text-align: center;
@@ -20,7 +21,7 @@
 }
 
 .container-main{
-    padding: 80px;
+    padding: 0px 80px;
     margin: 0 auto;
     max-width: 1024px;
     text-align: center;
@@ -36,4 +37,11 @@
 
 .col33{
     width: calc(100%/3);
+    padding: 10px;
 }
+
+.img-product{
+    display: block;
+    width: 100%;
+}
+
