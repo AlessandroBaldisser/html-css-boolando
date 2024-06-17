@@ -3,10 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
+header{
+    padding: 25px;
+    background-color: rgba(241, 134, 12, 0.982);
+    color: white;
+}
 
+.row-header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col33-head{
+    max-width: 33%;
+}
+
+#boolean-main-icon{
+    display: block;
+    width: 140px;
+}
+
+/* main */
 .container-title {
     padding: 20px 80px;
-    padding-top: 80px;
+    padding-top: 50px;
     margin: 0 auto;
     max-width: 1024px;
     text-align: center;
